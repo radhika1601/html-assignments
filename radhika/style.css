@@ -1,0 +1,500 @@
+*
+{
+	margin :0;
+	padding: 0;/*
+	background-color: #F4F3EC;*/
+}
+
+body
+{
+	width:100%;
+	margin :0px;
+	padding: 0px;
+	background-color: #F3F2F0 ;
+	color: #04373C ;
+	display: block;
+	/*min-width: 900px;*/
+}
+
+button:hover
+{
+	cursor: pointer;
+}
+
+.font_1
+{
+	font: normal normal normal 30px/1.4em 'eb garamond',serif;
+    color: #000000;
+}
+
+.font_2
+{
+	letter-spacing: .15em;
+	font: normal normal normal 14px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;
+    color: #000000;
+}
+
+.font_3
+{
+	font-family: 'Sarabun', sans-serif;
+	font-weight: bolder;
+	font-size: 18px/1.4em;
+	color: #04373C ;
+}
+
+.font_4
+{
+	font: normal normal normal 15px/1em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;
+}
+
+
+
+#header
+{
+	position: fixed;
+	padding-left: 15px;
+	padding-top: 20px;
+	width: 80%;
+    margin: 10%;
+	margin-top: 0;
+	background-color: #FFFFFF ;
+	display: flex;
+	justify-content: space-between;
+	z-index: 1;/*
+	min-width: 900px;*/
+}
+
+@media only screen and (max-width: 1000px)
+{
+	#header
+	{
+		margin: 0;
+		width: 100% ;
+	}
+}
+
+.button_head
+{
+	padding: 0 7px;
+	text-decoration: none;
+	font: normal normal normal 15px/1.4em 'Raleway',sans-serif;
+	color: black ;
+
+}
+.button_head:hover
+{
+	color: blue ;
+}
+
+#nav_bar
+{
+	display: flex;
+	flex-flow: nowrap;
+	width: 60% ;
+	align-self: flex-end;
+	position: relative;
+	top: 0;
+	bottom: 0;
+
+}
+
+
+#welcome
+{
+	background-image: url(assets/apricot-background-berry-1028599.jpg);
+	height: 800px;
+	/*width: 100% ;*/
+	position: relative;
+	top: 0;
+	bottom: 0;
+
+	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+#wel_top
+{
+	background-color: rgba(8, 5, 27, .5);
+	height: 800px;
+}
+
+#welcome_note
+{
+	padding-top: 200px;
+	height: 300px;
+	padding-left: 20% ;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#welcome_note h1
+{
+	font-size: 70px;
+	font-family: raleway,sans-serif;
+	font-weight: bolder;
+}
+
+#welcome_note p
+{
+	font: normal normal normal 20px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;
+}
+
+#welcome_note button
+{
+	background-color: transparent;
+	border-color: #FFFFFF ;
+	border-width: 2px;
+	text-decoration: none;
+	height: 40px;
+	width: 20%;
+	font: normal normal normal 20px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;
+	color: #FFFFFF ;
+}
+
+#welcome_note button:hover
+{
+	background-color: white;
+	color: #04373C;
+}
+
+#recipe_about
+{
+	display: flex;
+	justify-content: center;
+/*
+	background-color: #C6C4C1 ;*/
+	width: inherit;
+	/*margin: 15px;*/
+	
+	
+}
+
+#recipes
+{
+	width: 60%;
+	max-width: 800px;
+}
+
+.recipe
+{
+	background-color: white;
+	margin : 15px;
+	display : flex;
+	height : 300px;
+}
+
+.rec_content
+{
+	margin :5% 10%;
+	display : flex;
+	flex-direction : column;
+	justify-content : space-around;
+}
+
+#rec_button
+{
+	margin:20px 20%;
+	width: 40%;
+	height: 30px;
+	background-color: transparent;
+	border-color: #04373C ;
+	color: #04373C ;
+}
+
+#rec_button:hover
+{
+	background-color: #04373C ;
+	color: white;
+}
+
+.comment
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.comment img:hover
+{
+	cursor: pointer;
+}
+#about
+{
+	margin: 15px;
+	width: 38% ;
+	max-width: 350px;
+}
+
+#person
+{
+	padding-left: 20px;
+	background-color: #FFFFFF ;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	height: 815px;
+	font: normal normal normal 15px din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;
+	padding-right: 40px;
+}
+
+#person_head
+{
+	font-weight: bolder;
+	font-family: 'Sarabun', sans-serif;
+	color: #04373C ;
+	font-size: 50px;
+}
+
+.meal_plan
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 15px 0px;
+	background-image: url(assets/appetizer-bowl-cheese-1211887.jpg);
+	height: 300px;
+	width: 100% ;
+	background-size: 100% ;
+	background-repeat: no-repeat;
+}
+
+#meal_plan_content
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	text-align: center;
+	width: 80% ;
+	height: 30%;
+	background-color: white ;
+}
+
+#meal_plan_content h2
+{
+	font-family: 'Sarabun', sans-serif;
+	color: #04373C ;
+}
+
+#meal_plan_content a, #person a
+{
+	color: #04373C ;
+	font-family: raleway,sans-serif;
+}
+
+#contact
+{
+	display: flex ;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	background-color: #04373C ;
+	height: 120px;
+}
+
+#subscribe
+{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-top: 15px;
+	background-color: #FFFFFF;
+	height: 120px;
+	font: normal normal normal 17px din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;
+}
+
+#subscribe form
+{
+	width: 70% ;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+#subscribe input
+{
+	height: 25px;
+	border-color: #04373C ;
+	width: 100% ;
+}
+
+#subscribe button
+{
+	border-color: #04373C ;
+	color: #FFFFFF ;
+	width: 100% ;
+	height: 30px;
+	background-color: #04373C ; 
+}
+
+
+
+#photos
+{
+	/*height: 800px;*/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #FFFFFF ;
+	padding-top: 70px;
+}
+
+#photos_follow
+{
+	font-family: raleway,sans-serif;
+}
+
+#photos_hashtag
+{
+	font-weight: bold;
+	font-family: 'Sarabun', sans-serif;
+	font-size: 50px;
+}
+
+#images
+{
+	width: 100% ;
+	display: flex;
+	flex-direction: row;
+	flex-flow: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.imag
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 400px ;
+	width: 30% ;
+	margin : 7px;
+	max-width: 289.5px;
+	opacity: 1;
+	background-size: 100% ;
+}
+
+.imag:hover
+{
+	opacity: .5;
+	cursor: pointer;
+}
+
+.overlay
+{
+	color: black;
+	font-size: 40px;
+	opacity: 0;
+}
+
+.imag:hover .overlay
+{
+	opacity:1;
+}
+
+#sub_terms
+{
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#sub_terms h2
+{
+	font-family: raleway,sans-serif;
+	margin: 40px 0px;
+	font-size: 40px;
+}
+
+#sub_terms form
+{
+	width: 70%;
+	font-family: raleway,sans-serif;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 15px;
+}
+
+#sub_terms input
+{
+	border-color: #04373C ;
+	height: 35px;
+	width: 70%;
+}
+
+#sub_terms button
+{
+	border-color: #04373C ;
+	color: #FFFFFF ;
+	width: 28% ;
+	background-color: #04373C ; 
+}
+
+footer
+{
+	color: #FFFFFF ;
+	background-color: #04373C ;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+/*
+@media only screen and (max-device-width: 600px)
+{
+	body
+	{
+		width: device-width;
+	}
+
+	#recipe_about
+	{
+		flex-direction: column;
+		width: 100%;
+	}
+
+	#recipes
+	{
+		width: 100%;
+		align-items: center;
+	}
+
+	.recipe
+	{
+		flex-direction: column;
+		height: 600px;
+		width: 600px;
+	}
+
+	.recipe img
+	{
+		width: 600px;
+		height: 50%;
+		size: cover;
+	}
+
+	.rec_content
+	{
+		height: 50%;
+	}
+
+	#about
+	{
+		width: 100%;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.imag
+	{
+		height: 250px;
+	}
+}*/
